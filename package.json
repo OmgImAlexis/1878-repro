@@ -2,11 +2,19 @@
   "name": "1878-repro",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "keywords": [],
   "author": "Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dockerode": "2.5.27",
+    "typescript": "3.8.3",
+    "xo": "0.29.0"
+  },
+  "dependencies": {
+    "dockerode": "3.2.0",
+    "pify": "5.0.0"
+  }
 }

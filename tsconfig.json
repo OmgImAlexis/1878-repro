@@ -1,0 +1,16 @@
+{
+	"include": [
+		"app/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	],
+	"compilerOptions": {
+		"target": "es2019",
+		"module": "commonjs",
+		"strict": true,
+		"noImplicitAny": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true
+	}
+}
